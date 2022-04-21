@@ -5,7 +5,6 @@
 using namespace std;
 
 char tmp; //逐字读入
-char tmp2; //逐字读入
 int cnt = 0; //当前是第几个字
 bool has_reached_equal_mark; //在等号哪一侧
 string parameter; //系数
