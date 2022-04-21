@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//mark
 char tmp; //逐字读入
 int cnt = 0; //当前是第几个字
 bool has_reached_equal_mark; //在等号哪一侧
