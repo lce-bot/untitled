@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <cstdio>
 #include <string>
 
@@ -19,12 +19,12 @@ inline void calculate()
 	{
 		return;
 	}
-	
+
 	if (parameter.empty()) //-x特殊处理
 	{
 		parameter = "1";
 	}
-	
+
 	if (is_unknown) //是未知数
 	{
 		if (is_negative != has_reached_equal_mark) //要变号
@@ -47,7 +47,7 @@ inline void calculate()
 			normal_parameter += stod(parameter);
 		}
 	}
-	
+
 	//reset
 	parameter = "";
 	is_negative = false;
@@ -94,9 +94,9 @@ int main()
 			parameter += tmp;
 		}
 	}
-	
+
 	double ans = normal_parameter / unknown_parameter;
 	printf("%c=%.3lf", unknown, ans == 0 ? 0 : ans);
-	
+
 	return 0;
 }
